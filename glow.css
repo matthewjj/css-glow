@@ -1,0 +1,76 @@
+.yellow-fade {
+    animation: yellowFading 4s infinite;
+    -webkit-animation: yellowFading 4s infinite;
+}
+
+@keyframes yellowFading {
+    0%   { background: #fff; }
+    33%  { background: #ffb606; }
+    66%  { background: #ffb909; }
+    100% { background: #fff; }
+}
+
+@-webkit-keyframes yellowFading {
+    0%   { background: #ffb606; }
+    33%  { background: #ffb; }
+    66%  { background: #ffb909; }
+    100% { background: #ffb202; }
+}
+
+.red-fade {
+    animation: redFading 4s infinite;
+    -webkit-animation: redFading 4s infinite;
+}
+
+@keyframes redFading {
+    0%   { background: #fff; }
+    33%  { background: #e74c3c; }
+    66%  { background: #e7411c; }
+    100% { background: #fff }
+}
+
+@-webkit-keyframes redFading {
+   	0%   { background: #fff; }
+    33%  { background: #e74c3c; }
+    66%  { background: #e7411c; }
+    100% { background: #fff }
+}
+
+
+.green-fade-alert {
+    animation: greenFading 3s 2;
+    -webkit-animation: greenFading 3s 2;
+}
+
+@keyframes greenFading {
+    0%   { background: #fff; }
+    33%  { background: #b8f1bb; }
+    66%  { background: #b8f2bb; }
+    100% { background: #fff; }
+}
+
+@-webkit-keyframes greenFading {
+    0%   { background: #fff; }
+    33%  { background: #b8f1bb; }
+    66%  { background: #b8f2bb; }
+    100% { background: #fff; }
+}
+
+.green-fade-alert-b {
+    animation: greenFadingB 3s 2;
+    -webkit-animation: greenFadingB 3s 2;
+}
+
+@keyframes greenFadingB {
+    0%   { background: #fff; }
+    33%  { background: #62cb11; }
+    66%  { background: #62cb31; }
+    100% { background: #fff; }
+}
+
+@-webkit-keyframes greenFadingB {
+    0%   { background: #fff; }
+    33%  { background: #62cb11; }
+    66%  { background: #62cb31; }
+    100% { background: #fff; }
+}
